@@ -1,18 +1,6 @@
-
- const Hello=()=>{
-    console.log('heelo');
-    
-} 
-let name="chiheb"
-for(let i=0; i<= 10;i++){
-
-    console.log( "i Love Tasnim ");
-    
-
-}
+let arr=[1,2,3,4]
 
 
-Hello()
+ let arr2=arr.filter(e=> e>1)
 
-
-console.log(name);
+console.log(arr2);
